@@ -1,0 +1,1128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.main1 {
+  /* background-image: url(/image\ 20.svg),linear-gradient(180deg, rgba(30, 30, 30, 0.76) 0%, #000000 100%); */
+  /* opacity: 0.4; */
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, #000000 160%),
+    url("image\ 20.svg");
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  /* filter: brightness(60%); */
+}
+.start img {
+  margin-top: 26px;
+  margin-left: 137px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(0, 0, 0, 0.3);
+  height: 114px;
+  /* position: fixed; */
+  width: 100%;
+  margin-bottom: 162px;
+}
+ul {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.1289px;
+  line-height: 129.19%;
+  /* or 23px */
+  margin-top: 45px;
+  list-style: none;
+  display: flex;
+  color: #ffffff;
+  gap: 31px;
+}
+.end p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.1289px;
+  line-height: 129.19%;
+  /* or 23px */
+  margin-right: 191px;
+  color: #ffffff;
+  margin-top: 45px;
+}
+.polsha p {
+  width: 85%;
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60.3221px;
+  line-height: 129.19%;
+  /* or 59px */
+  text-align: center;
+  color: #ffffff;
+  margin-left: 130px;
+}
+.every p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.395px;
+  line-height: 129.19%;
+  /* or 26px */
+  margin-top: 48px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.put {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 55px;
+}
+.put1 {
+  width: 260px;
+  height: 60px;
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.1289px;
+  line-height: 22px;
+  text-align: center;
+  padding: 18px 30px 19px 29px;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: #000000;
+}
+.put2 {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.1289px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 18px;
+  color: #ffffff;
+}
+.mes img {
+  margin-top: 80px;
+  margin-right: 46px;
+}
+.mes {
+  display: flex;
+  justify-content: end;
+}
+.flex {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+.con1 {
+  background-image: url(/Rectangle\ 62.svg);
+}
+.flex2 .p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 129.19%;
+  font-family: sans-serif;
+  font-weight: 500;
+  /* or 58px */
+
+  color: #ffffff;
+}
+.p {
+  padding-top: 250px;
+}
+.put3 {
+  display: flex;
+
+  margin-top: 54px;
+}
+.put4 {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 157.4%;
+  /* identical to box height, or 25px */
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 14px 21px 14px 50px;
+  width: 203px;
+  height: 53px;
+  color: #ffffff;
+}
+.put5 {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 157.4%;
+  /* identical to box height, or 25px */
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 15px;
+  color: #ffffff;
+}
+.o {
+  margin-right: 10px;
+}
+.oo {
+  margin-left: 35px;
+}
+.ppp {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.pp {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  width: 550px;
+  color: #ffffff;
+  margin-top: 23px;
+  margin-bottom: 3px;
+}
+.flex2 {
+  padding-left: 80px;
+}
+.ppp {
+  width: 449px;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+.flex11 img {
+  padding-top: 45px;
+  width: 670px;
+}
+.im {
+  width: 700px;
+}
+
+.flex2 .p1 {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 35px;
+  font-size: 45px;
+  line-height: 129.19%;
+  /* or 58px */
+
+  color: #ffffff;
+}
+.flex3 {
+  display: none;
+  padding-top: 45px;
+}
+.gl {
+  background: url(/image\ 263.svg);
+  width: 100%;
+  height: 678px;
+  background-size: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.our p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 129.19%;
+  /* or 58px */
+  padding-top: 66px;
+  text-align: center;
+  padding-bottom: 25px;
+  color: #ffffff;
+}
+.obs {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 1023px;
+  height: 416px;
+  border-radius: 42px;
+  margin-left: 234px;
+}
+.obss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.obs p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 157.4%;
+  /* or 25px */
+  width: 236px;
+  text-align: center;
+  padding-left: 20px;
+  color: #ffffff;
+}
+.obs img {
+  padding-left: 100px;
+  padding-top: 44px;
+  width: 70px;
+
+}
+
+
+
+.obs1 {
+  display: flex;
+  justify-content: space-between;
+}
+.mob {
+  display: none;
+}
+.driver {
+  background-image: url(/aa.svg);
+  width: 100%;
+  background-size: 100%;
+  height: 751px;
+  background-size: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.use p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  padding-top: 102px;
+  color: #ffffff;
+  padding-bottom: 56px;
+}
+.s {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 1070px;
+  height: 503px;
+  border-radius: 61px;
+  margin-left: 210px;
+}
+.line {
+  display: flex;
+  padding-left: 60px;
+}
+.s {
+  display: flex;
+}
+.som p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 131%;
+  /* or 21px */
+  height: 226px;
+  width: 443px;
+  color: #ffffff;
+  margin-top: 105px;
+  margin-bottom: 35px;
+}
+.soo p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.125px;
+  line-height: 22px;
+  margin-top: 7px;
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+.so p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.125px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.some {
+  margin-left: 81px;
+}
+.per .r {
+  padding-top: 68px;
+  padding-left: 68px;
+}
+.line .rr {
+  margin-left: 90px;
+}
+.line img {
+  margin-left: 45px;
+  margin-top: 25px;
+}
+.car {
+  background-image: url(/image\ 262.svg);
+  width: 100%;
+  background-size: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+.l p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 72px;
+  color: #ffffff;
+}
+.for2 p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 33px;
+  color: #ffffff;
+}
+.audi img {
+  margin-left: 90px;
+}
+.f1 img {
+}
+.avto {
+  display: flex;
+}
+.d {
+  display: block;
+}
+.for {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.icon {
+  display: flex;
+  margin-left: 113px;
+  margin-top: 44px;
+  gap: 27px;
+}
+.taks {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, #000000 130%),
+    url("image\ 20.svg");
+  width: 100%;
+  background-size: 100%;
+  height: 50vh;
+
+  display: flex;
+}
+.ddd {
+}
+.earn p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  width: 736px;
+  height: 70px;
+  color: #ffffff;
+  padding-top: 86px;
+  margin-left: 132px;
+  margin-bottom: 83px;
+}
+.er p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 132px;
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+.dd .qq {
+  background-color: rgba(0, 0, 0, 0.51);
+  width: 343px;
+  height: 50px;
+
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 101px;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 15px 201px 16px 34px;
+  opacity: 0.6;
+  margin-bottom: 18px;
+}
+.f {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.308);
+  box-sizing: border-box;
+  padding: 17px 113px 17px 34px;
+  margin-bottom: 18px;
+}
+.xz p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  background: #ffffff;
+  color: #000000;
+  padding: 15px 44px 16px 44px;
+  box-sizing: border-box;
+}
+.b {
+  background-image: url(/image\ 262.svg);
+  width: 100%;
+  background-size: 100%;
+  height: 23vh;
+  background-color: rgba(0, 0, 0, 0.936);
+}
+.zz .q{
+ 
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+.b p {
+  font-family: "RF Dewi Expanded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  padding-top: 90px;
+  color: #ffffff;
+}
+.map img{
+    width:100%;
+  
+    height:500px;
+    
+}
+.di{
+    background-image: url(/Rectangle\ 62.svg);
+    width: 100%;
+    background-size: 100%;
+    height: 319px;
+    margin-top: -4px;
+
+    
+}
+.di1{
+    width: 100%;
+    height: 319px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    gap: 57px;
+    padding-bottom: 71px;
+    
+}
+.di1 .muu{
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+padding-top: 48px;
+padding-left: 112px;
+color: #FFFFFF;
+}
+.div2 p{
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+padding-top: 77px;
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+.div3 img{
+padding-top: 50px;
+}
+.hp{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+padding-left: 15px;
+
+color: #FFFFFF;
+}
+.be1{
+    font-family: 'RF Dewi';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+padding-top: 8px;
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+.final{
+width: 100%;
+height: 237px;
+    background: #1E1E1E;
+}
+.op{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    padding-bottom: 78px;
+    
+}
+.op1 .ul{
+    padding-top: 62px;
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+ 
+}
+.oi img{
+    padding-top: 46px;
+}
+.bud{
+    display: flex;
+    justify-content: center;
+    gap: 590px;
+}
+.bud1 p{
+    
+font-family: 'RF Dewi';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+.bud1{
+    display: flex;
+    gap: 19px;
+
+}
+.bud2{
+    display: flex;
+    gap: 11px;
+}
+.jjj img{
+  margin-top: -7px;
+}
+.iu{
+    display: flex;
+    gap: 24px;
+}
+.iu p{
+    font-family: 'RF Dewi';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+.so1 p{
+    display: none;
+}
+.soo1{
+    display: none;
+}
+@media (max-width: 1200px) {
+  .mes {
+    display: none;
+  }
+  .center,
+  .end {
+    display: none;
+  }
+  .som p{
+    font-family: 'RF Dewi';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 131%;
+/* or 17px */
+width: 330px;
+color: #FFFFFF;
+  }
+  .so1 p{
+    display: block;
+
+  }
+  .soo1 p{
+    display: block;
+  }
+}
+.a {
+  display: none;
+}
+@media (max-width: 800px) {
+  .polsha p {
+    font-size: 30px;
+  }
+  .polsha p {
+    margin-left: 30px;
+  }
+  .every p {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .put2 {
+    display: none;
+  }
+  .start {
+    margin-left: 0px;
+  }
+  .start img {
+    margin-top: 26px;
+    height: 60px;
+    margin-left: 17px;
+  }
+  .a {
+    display: block;
+    width: 14%;
+    margin-right: 20px;
+  }
+  .p {
+    font-family: "RF Dewi Expanded";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .flex {
+    display: block;
+  }
+  .flex2 {
+    padding: 10px;
+  }
+  .pp {
+    font-family: "RF Dewi Expanded";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 24px;
+    width: 330px;
+    color: #ffffff;
+    margin-left: 30px;
+  }
+  .ppp {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 30px;
+    color: #ffffff;
+    width: 326px;
+    opacity: 0.6;
+  }
+
+  .flex3 {
+    display: block;
+    width: 282px;
+    height: 340px;
+    margin-left: 70px;
+  }
+  .flex1 {
+    display: none;
+  }
+  .flex3 img {
+    width: 300px;
+  }
+  .flex2 .p1 {
+    font-family: "RF Dewi Expanded";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 275px;
+    height: 80px;
+    color: #ffffff;
+    margin-left: 40px;
+  }
+  span .o {
+    display: none;
+  }
+  span {
+    display: none;
+  }
+  .put5 {
+    display: none;
+  }
+  .put4 {
+    margin-left: 30px;
+  }
+  .flex11 img {
+    width: 300px;
+    margin-left: 60px;
+  }
+  .our .mob {
+    display: block;
+  }
+  .our p {
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .obss {
+    display: block;
+    margin-left: -20px;
+  }
+  .obs1 {
+    display: block;
+    margin-left: -20px;
+  }
+  .obs {
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    height: 73vh;
+  }
+  .green p {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    height: 51px;
+    text-align: center;
+    width: 151px;
+    color: #ffffff;
+    margin-left: 34px;
+  }
+  .yellow p {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    height: 51px;
+    text-align: center;
+    width: 151px;
+    color: #ffffff;
+    margin-left: 30px;
+    padding-top: 0px;
+  }
+  .gl {
+    width: 100%;
+    height: 100vh;
+    background: url(./image\ 263\ \(2\).svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:120% 100%;
+    background-color: rgba(0, 0, 0, 0.936);
+  }
+  .p {
+    padding: 60px;
+  }
+  .our{
+    position: relative;
+  }
+  .mob {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 5;
+  }
+
+  .obs{
+    height: 930px;
+    border-radius: unset;
+  }
+
+  .obss,
+  .obs1{
+    margin-top: 190px;
+  }
+  .use p{
+    font-size: 40px;
+  }
+  .s{
+    width:115%;
+    height: 413px;
+    display: block;
+    margin-left: -70px;
+    border-radius: 0px;
+  }
+  .per img{
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+  }
+  .line{
+    display: none;
+  }
+  .per{
+    display:flex;
+  }
+  .so{
+    display: none;
+  }
+  .soo{
+    display:none;
+  }
+  .so1{
+    display: block;
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+padding-top: 91px;
+padding-left: 31px;
+color: #FFFFFF;
+padding-bottom: 7px;
+  }
+  .soo1{
+    display: block;
+    font-family: 'RF Dewi';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+padding-left: 31px;
+color: #FFFFFF;
+
+opacity: 0.5;
+  }
+  .sd{
+    display: block;
+  }
+  .som p{
+    margin-top: 26px;
+    padding-left: 23px;
+  }
+  .audi img{
+    width: 330px;
+    margin-left: 30px;
+  }
+.avto{
+    display: block;
+}
+.for{
+    margin-left: 30px;
+}
+.ico img{
+    display: none;
+   
+}
+.taks{
+    display: block;
+}
+.dd .qq{
+    margin-top: 0px;
+}
+.earn p{
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+margin-left: 30px;
+color: #FFFFFF;
+width: 280px;
+margin-bottom: 20px;
+padding-top: 30px;
+}
+.er p{
+    margin-left: 30px;
+    width: 280px;
+    margin-bottom: 30px;
+}
+.f{
+    width: 90%;
+}
+.dd{
+    margin-left: 30px;
+}
+.xz p{
+    width: 90%;
+}
+.taks{
+    background-size: cover;
+}
+.b p{
+    font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+width: 220px;
+color: #FFFFFF;
+margin-left: 86px;
+padding-top: 20px;
+}
+.map img{
+    width: 100%;
+    height: 22vh;
+    
+
+}
+.b{
+    height: 15vh;
+}
+.div{
+    display: block;
+    padding-bottom:50px;
+}
+.di .muu{
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+padding-left: 25px;
+color: #FFFFFF;
+width: 342px;
+}
+.div2 p{
+    padding-top: 20px;
+    width: 329px;
+    margin-left: 25px;
+}
+.div3 img{
+    display: none;
+}
+.hp{
+    display: block;
+}
+.be1{
+    display: none;
+}
+.hp1{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.hp2{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.hp3{
+    margin-left: 20px;
+    font-family: 'RF Dewi Expanded';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.op1{
+    display: none;
+   
+}
+.op{
+    display: block;
+    padding-bottom: 0px;
+
+}
+.oi img{
+    margin-left: 25px;
+    padding-bottom: 27px;
+}
+.bud{
+    display: block;
+    margin-left: 30px;
+   
+}
+.final{
+    height: 30vh;
+}
+.iu{
+    display: block;
+    padding-top: 18px;
+}
+.iu1{
+    padding-bottom: 8px;
+}
+}
